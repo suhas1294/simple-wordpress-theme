@@ -154,7 +154,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
-	width: 100%;`
+	width: 100%;
 }
 
 /* Header Area
@@ -162,9 +162,13 @@ body {
 #branding {
 	background: url(images/QwinixLogo-680x172px.png) 70% top no-repeat;
 	float: left;
-	height: 180px;
-  width: 960px;
+	/*height: 180px;*/
+  /*width: 960px;*/
   margin-left: 10%;
+  /*border: 2px solid red;*/
+  background-size: 70%;
+  margin-left: 27%;
+  margin-bottom: -10%;
 }
 #logo a {
   display: block;
@@ -312,7 +316,7 @@ body {
 	float: right;
 	padding: 10px 20px;
 	width: 210px;
-  margin-right: -35%;
+  margin-right: -32%;
   /*border: 2px solid red;*/
   background-color: #99ff99;
 }
@@ -458,3 +462,26 @@ ol#commentlist li p {
 	cursor: pointer;
 }
 .form-allowed-tags {display:none;}/* Hides all the crap about html tags*/
+#archieved-content{
+  background-image: url(images/notepad.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 60em;
+}
+.qwinix{
+  /*border: 2px solid red;*/
+  width: 30%;
+  transform: rotate(-12deg);
+  margin-left: 14%;
+  padding-top: 07%;
+}
+.archived-custom{
+padding-left: 30%;
+}
+#custom-content {
+  float: left;
+  padding: 20px;
+  width: 130%;
+  background-color: #b8f2ee;
+  height: inherit;
+}
